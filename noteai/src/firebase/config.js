@@ -1,0 +1,21 @@
+ // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBbdGhOiSbCEEPPYpBk2yCqc88XuxDDGzg",
+  authDomain: "noteai-97867.firebaseapp.com",
+  projectId: "noteai-97867",
+  storageBucket: "noteai-97867.firebasestorage.app",
+  messagingSenderId: "144138578777",
+  appId: "1:144138578777:web:38c3f09d5b100674c6fa48"
+};
+const app = initializeApp(firebaseConfig);
+
+export const auth = getAuth(app);
+export const provider = new GoogleAuthProvider();
+export const db = getFirestore(app);

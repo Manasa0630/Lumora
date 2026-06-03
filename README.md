@@ -64,3 +64,38 @@ npm install
 ```
 
 4. Configure environment variables — create a `.env` file
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+5. Add your Firebase config in `src/firebase/config.js`
+
+6. Start the development server
+```bash
+npm run dev
+```
+
+7. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+8. Access the live Lumora website at: [lumora.vercel.app](https://lumora.vercel.app)
+
+## Usage Instructions
+
+1. Sign in using your Google account
+2. Upload a PDF or paste your notes on the Upload page
+3. Wait ~10 seconds while AI generates your study material
+4. Switch between Summary, Quiz, and Flashcard tabs to study
+5. Track your quiz scores and progress on the Dashboard
+
+## Contributing
+
+We welcome contributions from the community to enhance Lumora. If you have feature suggestions, 
+bug reports, or code improvements, feel free to submit a pull request or open an issue on GitHub.
+
+## Conclusion
+
+We hope this documentation gives you everything you need to get started with Lumora. 
+Whether you are a student preparing for exams or someone who loves learning efficiently — 
+Lumora is built for you.
+
+---
+
+Built with ❤️ by Manasa Kotian

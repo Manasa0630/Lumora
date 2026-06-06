@@ -1,4 +1,4 @@
-# Lumora ✨
+# Lumora 
 
 Lumora is redefining how students study by turning raw notes into intelligent study material. 
 Upload a PDF or paste your notes — Lumora instantly generates summaries, MCQs, and flashcards 

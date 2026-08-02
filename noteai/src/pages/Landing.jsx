@@ -100,7 +100,7 @@ export default function Landing() {
           <div className="absolute top-5 left-5 right-5 h-px bg-gradient-to-r from-purple-600 via-purple-300 to-amber-400 z-0"/>
           {[
             { num: "1", color: "bg-purple-600", title: "Upload your notes", desc: "Drop a PDF or paste any text. We handle the rest automatically." },
-            { num: "2", color: "bg-purple-400", title: "AI processes it", desc: "Claude + Gemini summarize content and extract key concepts instantly." },
+            { num: "2", color: "bg-purple-400", title: "AI processes it", desc: "Gemini summarize content and extract key concepts instantly." },
             { num: "3", color: "bg-amber-400", title: "Quiz yourself", desc: "Attempt auto-generated MCQs and flip through smart flashcards." },
             { num: "4", color: "bg-red-400", title: "Track progress", desc: "Spaced repetition reminds you what to revisit. Watch scores improve." },
           ].map((s) => (

@@ -119,12 +119,12 @@ export default function Landing() {
         <div className="text-3xl font-black tracking-tight mb-10">Everything you need to revise smarter</div>
         <div className="grid grid-cols-3 gap-5">
           {[
-            { icon: "📄", title: "PDF Upload", desc: "Upload any PDF or paste raw text. We extract and clean content automatically." },
-            { icon: "✨", title: "AI Summarization", desc: "Get crisp, structured summaries of long chapters in seconds." },
-            { icon: "🧠", title: "MCQ Generation", desc: "Auto-generate multiple-choice questions with explanations for every answer." },
-            { icon: "🃏", title: "Flashcards", desc: "Key concepts as flip cards. Mark what you know and what needs more work." },
-            { icon: "🔁", title: "Spaced Repetition", desc: "Smart reminders tell you exactly which cards to review today." },
-            { icon: "📊", title: "Progress Dashboard", desc: "Track quiz scores and improvement over time with clean visual charts." },
+            { title: "PDF Upload", desc: "Upload any PDF or paste raw text. We extract and clean content automatically." },
+            {  title: "AI Summarization", desc: "Get crisp, structured summaries of long chapters in seconds." },
+            { title: "MCQ Generation", desc: "Auto-generate multiple-choice questions with explanations for every answer." },
+            { title: "Flashcards", desc: "Key concepts as flip cards. Mark what you know and what needs more work." },
+            {  title: "Spaced Repetition", desc: "Smart reminders tell you exactly which cards to review today." },
+            {  title: "Progress Dashboard", desc: "Track quiz scores and improvement over time with clean visual charts." },
           ].map((f) => (
             <div key={f.title} className="bg-white border border-gray-100 rounded-xl p-6 hover:shadow-lg hover:shadow-purple-50 transition">
               <div className="w-10 h-10 bg-purple-50 rounded-xl flex items-center justify-center text-xl mb-4">{f.icon}</div>

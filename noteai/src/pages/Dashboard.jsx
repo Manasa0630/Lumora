@@ -59,7 +59,7 @@ export default function Dashboard() {
         {/* Welcome */}
         <div className="mb-10">
           <h1 className="text-4xl font-black tracking-tight text-gray-900 mb-2">
-            Welcome back, {user?.displayName?.split(" ")[0]} 👋
+            Welcome back, {user?.displayName?.split(" ")[0]} 
           </h1>
           <p className="text-gray-500 text-base">
             Upload your notes and let AI do the heavy lifting.

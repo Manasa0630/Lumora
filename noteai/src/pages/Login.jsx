@@ -33,11 +33,11 @@ export default function Login() {
         {/* Features list */}
         <div className="text-left space-y-3 mb-8">
           {[
-            "📄 Upload any PDF or paste notes",
-            "✨ AI-generated summaries instantly",
-            "🧠 MCQs with detailed explanations",
-            "🃏 Flashcards with spaced repetition",
-            "📊 Track your progress over time",
+            " Upload any PDF or paste notes",
+            " AI-generated summaries instantly",
+            " MCQs with detailed explanations",
+            " Flashcards with spaced repetition",
+            " Track your progress over time",
           ].map((f) => (
             <div key={f} className="flex items-center gap-2 text-sm text-gray-600">
               <span>{f}</span>

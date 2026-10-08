@@ -74,9 +74,7 @@ export default function Dashboard() {
               className="rounded-2xl p-6 relative overflow-hidden"
               style={{ background: "#ffffff", border: "1px solid #fde8d8" }}
             >
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.gradient} flex items-center justify-center mb-4`}>
-                <i className={`ti ${s.icon} text-white text-xl`} />
-              </div>
+             
               <div className="text-4xl font-black text-gray-900 mb-1">{s.value}</div>
               <div className="text-base font-semibold text-gray-800 mb-0.5">{s.label}</div>
               <div className="text-xs text-gray-400">{s.sub}</div>

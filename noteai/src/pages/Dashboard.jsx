@@ -43,12 +43,12 @@ export default function Dashboard() {
     return Math.round(scored.reduce((a, b) => a + b.quizScore, 0) / scored.length) + "%";
   };
 
-  const stats = [
-    { label: "Notes Uploaded", value: notes.length, sub: "Total", icon: "ti-file-text", gradient: "from-violet-500 to-purple-600" },
-    { label: "Quizzes Taken", value: notes.filter(n => n.quizScore !== undefined).length, sub: "Completed", icon: "ti-brain", gradient: "from-blue-500 to-indigo-600" },
-    { label: "Flashcard Sets", value: notes.filter(n => n.flashcards?.length > 0).length, sub: "Generated", icon: "ti-cards", gradient: "from-pink-500 to-rose-500" },
-    { label: "Avg Quiz Score", value: avgScore(), sub: "Overall", icon: "ti-chart-bar", gradient: "from-amber-400 to-orange-500" },
-  ];
+ const stats = [
+  { label: "Notes Uploaded", value: notes.length, sub: "Total", gradient: "from-violet-500 to-purple-600" },
+  { label: "Quizzes Taken", value: notes.filter(n => n.quizScore !== undefined).length, sub: "Completed", gradient: "from-blue-500 to-indigo-600" },
+  { label: "Flashcard Sets", value: notes.filter(n => n.flashcards?.length > 0).length, sub: "Generated", gradient: "from-pink-500 to-rose-500" },
+  { label: "Avg Quiz Score", value: avgScore(), sub: "Overall", gradient: "from-amber-400 to-orange-500" },
+];
 
   return (
     <div className="min-h-screen bg-gray-50" >
